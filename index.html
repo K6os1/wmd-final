@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <!-- Internal CSS -->
+    <style>
+        p {
+            font-size: 24px;
+        }
+
+        figure {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        figure img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        figcaption {
+            font-size: 20px;
+            text-align: left;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+
+        nav img {
+            margin-left: auto;
+        }
+
+        .image-gallery {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+    </style>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav id="Navigation">
+        <ul>
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="tvshows.html">TV Shows</a></li>
+            <li><a href="games.html">Games and Apps</a></li>
+            <li><a href="collections.html">Collections</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li>
+                <a href="index.html">
+                    <img src="logo.png" alt="Warner logo" height="30">
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Video Section -->
+    <section>
+        <figure>
+            <video controls width="500">
+                <source src="Casablanca.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <figcaption>BACK IN TIME</figcaption>
+        </figure>
+    </section>
+
+    <!-- Popular Section -->
+    <section>
+        <h1>POPULAR MOVIES AND TV SHOWS</h1>
+        <div class="image-gallery">
+            <figure>
+                <img src="legacies.jpeg" alt="Legacies" height="250">
+                <figcaption>LEGACIES</figcaption>
+            </figure>
+            <figure>
+                <img src="rickandmorty.jpeg" alt="Rick and Morty" height="250">
+                <figcaption>RICK AND MORTY</figcaption>
+            </figure>
+            <figure>
+                <img src="TOMJERRY.jpeg" alt="Tom and Jerry" height="250">
+                <figcaption>TOM AND JERRY</figcaption>
+            </figure>
+            <figure>
+                <img src="28866.213.large.jpg" alt="The Nun" height="250">
+                <figcaption>THE NUN</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <!-- Coming Soon Section -->
+    <section>
+        <h1>COMING SOON TO THEATERS</h1>
+        <div class="image-gallery">
+            <figure>
+                <img src="28870.593.large.jpg" alt="Blue Beetle">
+                <figcaption>BLUE BEETLE</figcaption>
+            </figure>
+            <figure>
+                <img src="28871.993.large.jpg" alt="Barbie">
+                <figcaption>BARBIE</figcaption>
+            </figure>
+            <figure>
+                <img src="28873.444.large.jpg" alt="The Flash">
+                <figcaption>THE FLASH</figcaption>
+            </figure>
+            <figure>
+                <img src="28874.638.large.jpg" alt="Air">
+                <figcaption>AIR</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-media-links">
+            <a href="https://www.youtube.com/user/WarnerBrosPictures/">
+                <img src="youtube-logo.png" alt="YouTube">
+            </a>
+            <a href="https://www.facebook.com/warnerbrosent/">
+                <img src="facebook-logo.png" alt="Facebook">
+            </a>
+            <a href="https://twitter.com/Warnerbros/">
+                <img src="twitter-logo.png" alt="Twitter">
+            </a>
+            <a href="https://www.instagram.com/warnerbrosentertainment/">
+                <img src="instagram-logo.png" alt="Instagram">
+            </a>
+        </div>
+    </footer>
+
+</body>
+</html>
